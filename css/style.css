@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(./img/jay-soundo-sP9pc68QmAw-unsplash.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.menu-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: rgb(211, 196, 196);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.menu-container .navbar ul li {
+  position: relative;
+  float: left;
+}
+.menu-container .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: rgb(237, 227, 227);
+  display: block;
+  font-weight: 600;
+}
+.menu-container .navbar ul li a:hover {
+  color: rgb(185, 119, 20);
+}
+
+#menu {
+  display: none;
+}
+
+.header-content {
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 95px;
+  line-height: 80px;
+  color: white;
+  text-transform: uppercase;
+}
+.header-content p {
+  font-size: 25px;
+  color: rgb(167, 158, 158);
+  padding: 16px;
+  margin-bottom: 25px;
+}
+
+.btn-0 {
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: rgb(226, 202, 202);
+  color: rgb(100, 89, 89);
+  text-transform: uppercase;
+  border-radius: 12px;
+}
+
+.model {
+  padding: 100px 0;
+  background-color: rgb(89, 81, 81);
+  position: relative;
+}
+.model .model-content {
+  text-align: center;
+}
+.model .model-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: rgb(212, 205, 205);
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+}
+.model .model-content .txt-p {
+  font-size: 16px;
+  color: rgb(195, 187, 187);
+  padding: 0 250px;
+  margin-bottom: 35px;
+}
+.model .model-content .model-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.model .model-content .model-group .model-1 {
+  padding: 0 25px;
+}
+.model .model-content .model-group .model-1 img {
+  width: 200px;
+  height: 266px;
+  border-radius: 36px;
+  filter: grayscale(1);
+}
+.model .model-content .model-group .model-1 img:hover {
+  filter: none;
+}
+.model .model-content .model-group .model-1 h3 {
+  color: rgb(186, 184, 181);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.model .model-content .model-group .model-1 h3:hover {
+  color: black;
+}
+.model .model-content .model-group .model-1 p {
+  color: rgb(198, 188, 188);
+}
+
+.servicios {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(118, 113, 113, 0.7)), url(./img/duong-ngan-qZnLJvTrIFo-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+.servicios .servicios-content {
+  text-align: center;
+}
+.servicios .servicios-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.servicios .servicios-content p {
+  font-size: 16px;
+  color: rgb(229, 220, 220);
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+.servicios .servicios-content .servicios-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.servicios .servicios-content .servicios-group .servicios-1 {
+  padding: 0 80px;
+}
+.servicios .servicios-content .servicios-group .servicios-1 img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+.servicios .servicios-content .servicios-group .servicios-1 h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.general .general-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 100px 250px 100px 100px;
+  background-color: white;
+}
+.general .general-2 {
+  background-image: url(./img/katsiaryna-endruszkiewicz-BteCp6aq4GI-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.footer {
+  padding: 40px 0;
+  background-color: rgb(97, 93, 93);
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: grey;
+}
+.footer .social a {
+  font-size: 24px;
+  color: grey;
+  border: 1px solid rgb(244, 241, 241);
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.footer .social a:hover {
+  opacity: 0.9;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul li a {
+  color: rgb(195, 188, 188);
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul li a:hover {
+  opacity: 1;
+}
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(255, 249, 249);
+}
+
+form {
+  justify-content: center;
+  background: linear-gradient(90deg, rgb(98, 98, 103) 0%, rgba(111, 111, 117, 0.3871428571));
+}
+
+@media (max-width: 420px) {
+  .menu-container .navbar ul li {
+    position: relative;
+    float: left;
+  }
+  .menu-container .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(237, 227, 227);
+    display: block;
+    font-weight: 600;
+  }
+  .menu-container .navbar ul li a:hover {
+    color: rgb(185, 119, 20);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
