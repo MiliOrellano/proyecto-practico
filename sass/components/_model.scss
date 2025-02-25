@@ -1,0 +1,68 @@
+@import "../utility/variables";
+.model {
+    margin-top: 2rem;
+    padding: 100px 0;
+    background-color: $color-dark-grey;
+    position: relative;
+    .model-content {
+      text-align: center;
+      h2 {
+        font-size: 55px;
+        line-height: 70px;
+        color: rgb(212, 205, 205);
+        text-transform: uppercase;
+        padding: 0 250px;
+        margin-bottom: 15px;
+      }
+      .txt-p {
+        font-size: 2rem;
+        color: rgb(195, 187, 187);
+        margin-bottom: 2.1875rem;
+      }
+    }
+}
+.model-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    .model-1 {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.3s, box-shadow 0.3s;
+        margin-left: 1rem;
+        filter: grayscale(1);
+        img{
+            object-fit: fill;
+            width: auto;
+            height: 100%;
+            overflow: hidden;
+        }
+        h3 {
+            background-color: $color-light-grey;
+            color: black;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        p {
+            font-size: 1rem;
+            margin: 0;
+            padding-bottom: 3em;
+            overflow: hidden;
+            max-height: 4.5em;
+            text-align: center;
+        }
+        &:hover {
+            filter: none;
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-height: 100em;
+            transition: 0.3s;
+        }
+    }
+}

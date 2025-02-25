@@ -1,0 +1,48 @@
+    .model-prime{
+        background-color: $color-light-grey;
+        ;
+        padding: 2rem;
+    }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            justify-content: center;
+            max-width: 75rem;
+            margin: auto;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &:hover{
+                transform: translateY(-0.625rem);
+                box-shadow: 0rem 0rem 2rem 0rem  #fff;
+                transition: 0.3s;
+            }
+        }
+        .card h3 {
+            background-color: $color-dark-grey;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .card p {
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+        }
+
+        .servicios-1{
+            color: #fff;
+            font-size: 4rem;
+            justify-self: center;
+            padding: 3rem;
+        }
+    

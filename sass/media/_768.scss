@@ -1,0 +1,4 @@
+.grid-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+.item1, .item3 { grid-column: span 2; }

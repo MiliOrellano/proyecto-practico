@@ -1,0 +1,31 @@
+.formularios{
+    input.form{
+        display: flex;
+        flex-direction: column;
+        all: unset;
+        margin: 0.5rem;
+        font-size: 2rem;
+        border-width: 1px;
+        border-bottom: 1px solid white;
+        background-color: azure;
+        border-left: 0px;
+        border-right: 0px;
+        padding: 0.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+} 
+div.contact-button button{
+    all: unset;
+    border: var(--Border-Border-Thin, 1px) solid antiquewhite;
+    display: flex;
+    padding: var(--Spacing-Spacing-08, 8px) var(--Spacing-Spacing-16, 16px);
+    align-items: center;
+    gap: var(--spacing-1, 4px);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    color: antiquewhite;
+    background-color: darkslategrey;
+    margin-bottom: 2rem;
+}

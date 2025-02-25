@@ -1,0 +1,22 @@
+.navbar {
+    ul {
+      list-style: none;
+      text-decoration: none;
+      li {
+        position: relative;
+        float: left;
+        a {
+          font-size: 18px;
+          padding: 20px;
+          color: #c79b9b;
+          display: block;
+          font-weight: 600;
+          text-decoration: none;
+          &:hover {
+            color: rgb(185, 119, 20);
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }

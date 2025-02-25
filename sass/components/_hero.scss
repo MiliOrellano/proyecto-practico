@@ -1,0 +1,36 @@
+.hero{
+    background-image: url(../img/jay-soundo-sP9pc68QmAw-unsplash.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    h1 {
+        padding: 2rem;
+        font-size: 5.9375rem;
+        line-height: 5rem;
+        color: $color-white;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 1.5625rem;
+        width: 80%;
+        color: $color-light-grey;
+        padding: 1rem;
+        margin-bottom: 1.5625rem;
+        justify-self: center;
+    }
+}
+.btn-0 {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: rgb(226, 202, 202);
+    color: rgb(100, 89, 89);
+    text-transform: uppercase;
+    border-radius: 12px;
+  }

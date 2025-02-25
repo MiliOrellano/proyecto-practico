@@ -1,17 +1,24 @@
 @media(max-width:420px){
-    .menu-container .navbar {
+    .menu-container{ 
+    .navbar {
         ul {
           li {
             position: relative;
             float: left;
             
             a {
-              font-size: 18px;
-              padding: 20px;
+              font-size: 1.125rem;
+              padding: 1.25rem;
               color: rgb(237, 227, 227);
               display: block;
               font-weight: 600;
       
               &:hover {
                 color: rgb(185, 119, 20);
-              }}}}}}
+              }
+            }
+          }
+        }
+      }
+    }
+  }

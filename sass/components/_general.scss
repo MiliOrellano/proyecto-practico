@@ -1,0 +1,22 @@
+.general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    .general-1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      padding: 100px 250px 100px 100px;
+      background-color: $color-white;
+    }
+  
+    .general-2 {
+      background-image: url(./img/katsiaryna-endruszkiewicz-BteCp6aq4GI-unsplash.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 50%;
+    }
+  }
